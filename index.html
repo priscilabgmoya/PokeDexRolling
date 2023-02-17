@@ -7,7 +7,9 @@
     <meta name="description" content="pagina de PokeDex" />
     <meta
       name="keybords"
-      content="Pokemon, pikachu, ash, pokedex, agregar mas  "
+      content="Pokemon, pikachu, ash, pokedex, blaistoise,
+    buterflee, caterpie, charizard, charmander, charmeleon, ivysaur, metapod,
+    squitle, venusaur, wartotle"
     />
     <meta
       name="author"
@@ -21,40 +23,108 @@
     <header></header>
 
     <main>
-      <h1>hola German! cuando veas esto!</h1>
+      <section class="container">
+        <article id="sliderPokeDex" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#sliderPokeDex"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#sliderPokeDex"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#sliderPokeDex"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/img/POKEBOLA.jpg"
+                class="d-block w-100 banner-responsive"
+                alt="picachu slider"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/POKEBOLA PORTADA.jpg"
+                class="d-block w-100 banner-responsive"
+                alt="picachu portada"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/pokemonslide.jpg"
+                class="d-block w-100 banner-responsive"
+                alt="pokebola"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#sliderPokeDex"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#sliderPokeDex"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </article>
+      </section>
     </main>
     <footer>
-        <article class="container-fluid bg-black">
-            <aside  class="row" id="cuerpoFooter">
-                <div class="col-xl-3">
-                    <p class="h5">PokeDex</p>
-                </div>
-                <div class="col-xl-3">
-                    <p class="h5"> Navegacion</p>
-                    <ul>
-                        <li><a href="/page/quienesSomos.html">Quienes Somos</a></li>
-                        <li><a href="/index.html">Inicio</a></li>
-                        <li><a href="/page/error404.html">Contactanos</a></li>
-                        <li><a href="/page/error404.html">Nuestra Historia</a></li>
-                    </ul>
-                </div>
-                <div class="col-xl-3">
-                    <p class="h5">Legal</p>
-                    <ul>
-                        <li><a href="/page/error404.html">Terminos y condiciones</a></li>
-                        <li><a href="/page/error404.html">Politica de privacidad</a></li>
-                        <li><a href="/page/error404.html">Politica de derecho de autor</a></li>
-                        <li><a href="/page/error404.html">Descargar App Movil</a></li>
-                    </ul>
-                </div>
-                <div class="col-xl-3">
-                    <p class="h5">Redes Sociales</p>
-                </div>
-            </aside>
-            <aside  class="row" id="copyrightFooter">
-               <p class="h6"> &copy;Todos los Derechos Reservados - PokeDex </p> 
-            </aside>
-        </article>
+      <article class="container-fluid bg-black">
+        <aside class="row" id="cuerpoFooter">
+          <div class="col-xl-3">
+            <p class="h5">PokeDex</p>
+          </div>
+          <div class="col-xl-3">
+            <p class="h5">Navegacion</p>
+            <ul>
+              <li><a href="/page/quienesSomos.html">Quienes Somos</a></li>
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="/page/error404.html">Contactanos</a></li>
+              <li><a href="/page/error404.html">Nuestra Historia</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-3">
+            <p class="h5">Legal</p>
+            <ul>
+              <li><a href="/page/error404.html">Terminos y condiciones</a></li>
+              <li><a href="/page/error404.html">Politica de privacidad</a></li>
+              <li>
+                <a href="/page/error404.html">Politica de derecho de autor</a>
+              </li>
+              <li><a href="/page/error404.html">Descargar App Movil</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-3">
+            <p class="h5">Redes Sociales</p>
+          </div>
+        </aside>
+        <aside class="row" id="copyrightFooter">
+          <p class="h6">&copy;Todos los Derechos Reservados - PokeDex</p>
+        </aside>
+      </article>
     </footer>
     <script src="js/bootstrap.min.js"></script>
   </body>
