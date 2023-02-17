@@ -31,3 +31,83 @@ main {
 #cuerpoFooter ul {
   list-style: none;
 }
+
+
+/*================== Gerardo ===================================*/
+.sinCursor {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+}
+.img-charmander {
+  max-width: 70%;
+  margin: 0 auto;
+  display: none;
+}
+.img-evoluciones {
+  max-width: 50%;
+  margin: 0 auto;
+}
+[class*='-heading'] {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  margin: 3rem 0;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: top;
+  gap: 4rem;
+}
+
+.pokemonSkills-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: top;
+  gap: 4rem;
+}
+
+.hoverable {
+  display: inline-block;
+  background: center url('/img/detallesPokemonCharmander/charmander.png')
+    no-repeat;
+  background-size: contain;
+}
+
+@media all and (min-width: 280px) and (max-width: 768px) {
+  .carousel {
+    display: none;
+  }
+  [class*='-heading'] {
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    color: red;
+    margin: 3rem 0;
+  }
+  .pokemon-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pokemonSkills-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .img-charmander {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .hoverable:hover {
+    background-image: url('/img/detallesPokemonCharmander/lanzallamasCharmander.gif');
+  }
+}
+/*================== FIN Gerardo =================================*/
