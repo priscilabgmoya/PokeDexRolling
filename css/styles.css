@@ -31,3 +31,23 @@ main {
 #cuerpoFooter ul {
   list-style: none;
 }
+#navBar-PokeDex{
+  background-color: #e0e0e0;
+ color: #b7de68;
+}
+.navbar-brand img{
+ padding: 0px;
+ margin: 0px;
+ height: 12vh;
+ border-radius: 42px;
+}
+
+#navbarSupportedContent input{
+background-color: #ffffff;
+height: 8vh;
+}
+#navbarSupportedContent ul li a {
+  color: #416111;
+  font-size: 15px;
+  
+}
