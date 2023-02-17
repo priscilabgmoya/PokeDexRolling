@@ -1,9 +1,10 @@
+/*#e88c68 #692108 #c7551b #eebd3b #f5ba42 #e0e0e0 #762334 #b7de68 #416111 #629b27*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
 main {
   flex-grow: 1;
 }
@@ -17,8 +18,20 @@ main {
 }
 #copyrightFooter {
   text-align: center;
-  color: aliceblue;
+  color: #e0e0e0;
 }
+#cuerpoFooter .h5 {
+  color: #b7de68;
+ text-decoration:underline #416111
+}
+#cuerpoFooter li a,li{
+  text-decoration: none ;
+  color: #e0e0e0;
+}
+#cuerpoFooter ul {
+  list-style: none;
+}
+
 
 /*================== Gerardo ===================================*/
 .sinCursor {
