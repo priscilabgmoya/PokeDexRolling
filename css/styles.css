@@ -13,8 +13,11 @@ main {
   justify-content: center;
 }
 #Error404 img {
-  width: 100%;
+  width: 97%;
   object-fit: cover;
+  display: block;
+  margin: auto;
+  
 }
 #copyrightFooter {
   text-align: center;
@@ -49,3 +52,4 @@ height: 8vh;
 #navbarSupportedContent ul li a {
   color: #416111;
 }
+
