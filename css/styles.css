@@ -13,6 +13,7 @@ main {
   justify-content: center;
 }
 #Error404 img {
+  padding-top: 10px;
   width: 97%;
   object-fit: cover;
   display: block;
