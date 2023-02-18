@@ -111,3 +111,32 @@ main {
   }
 }
 /*================== FIN Gerardo =================================*/
+/*================== German ===================================*/
+.imgCardAcercaNosotros img{
+  width: 227px;
+  height: 272px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+#cardQuienesSomos .card {
+  border: none;
+}
+#cardQuienesSomos .card-title{
+  color: #e88c68;
+}
+#cardQuienesSomos .card-text {
+text-align: justify;
+color: #e0e0e0;
+}
+@media all and (max-width: 770px) {
+
+  .imgCardAcercaNosotros  img{
+    width: 264px;
+    height: 255px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+}
+/*================== FIN German =================================*/
