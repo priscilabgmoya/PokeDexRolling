@@ -32,6 +32,14 @@ main {
   
 }
 
+.colorPlanta {
+background-color:rgb(75, 214, 121) ;
+}
+
+.colorVeneno {
+  background-color: blueviolet;
+}
+
 .sinCursor {
   cursor: not-allowed;
   pointer-events: none;
