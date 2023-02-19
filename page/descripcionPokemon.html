@@ -16,9 +16,36 @@
     <title>PokeDex</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
-  </head>
+    <title>PokeDex</title>
+</head>
   <body>
-    <header class="container-fluid">Soy el Header</header>
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navBar-PokeDex">
+            <section class="container-fluid">
+              <a class="navbar-brand" href="../index.html" ><img src="/img/logoPokedek.png" alt="logoPokedek" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <article  class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/page/error404.html">Pokemon  Favoritos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  href="/page/error404.html">Categorias</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Busca aquí tu Pokemon" aria-label="Search">
+                  <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </article>
+            </section>
+          </nav>
+    </header>
 
     <main class="container">
       <!--Carrousel-->
@@ -307,6 +334,7 @@
       </section>
     </main>
        <footer>
+
         <section class="container-fluid">
             <article  class="row" id="cuerpoFooter">
                 <aside class="col-xl-3  col-sm-3 col-md-3">
