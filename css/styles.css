@@ -141,20 +141,5 @@ color: #e0e0e0;
 }
 /*================== FIN German =================================*/
 
-/* belen  */
-
-
-.container {
-  display: grid;
-}
-
-.imgPokemon {
-  width: 100%;
-  object-fit: cover;
-}
-
-.descripcionPokemon {
-
-}
 
 
