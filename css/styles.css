@@ -153,8 +153,8 @@ color: #e0e0e0;
   object-fit: cover;
 }
 
-.descripcionPokemon {
 
-}
-
-
+.img-butterfree {
+  max-width: 70%;
+  margin: 0 auto;
+  display: none;
