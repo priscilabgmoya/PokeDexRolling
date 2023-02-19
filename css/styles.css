@@ -75,7 +75,7 @@ background-color:rgb(75, 214, 121) ;
   background-color: blueviolet;
 }
 
-.sinCursor {
+.botonColor {
   cursor: not-allowed;
   pointer-events: none;
   border-radius: 40px;
