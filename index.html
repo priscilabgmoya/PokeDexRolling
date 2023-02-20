@@ -16,7 +16,10 @@
       content="Rusco German André, Garcia Moya Priscila Belen, Ramos Emilia Belen, Romero Uro, Juan Gerardo"
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>PokeDex</title>
   </head>
@@ -24,25 +27,46 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light" id="navBar-PokeDex">
         <section class="container-fluid">
-          <a class="navbar-brand" href="./index.html" ><img src="./img/logoPokedek.png" alt="logoPokedek" ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./img/logoPokedek.png" alt="logoPokedek"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <article  class="collapse navbar-collapse" id="navbarSupportedContent">
+          <article class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Incio</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Incio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./page/error404.html">Pokemon  Favoritos</a>
+                <a class="nav-link" href="./page/error404.html"
+                  >Pokemon Favoritos</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link "  href="./page/error404.html">Categorias</a>
+                <a class="nav-link" href="./page/error404.html">Categorias</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Busca aquí tu Pokemon" aria-label="Search">
-              <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Busca aquí tu Pokemon"
+                aria-label="Search"
+              />
+              <button class="btn btn-success" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
             </form>
           </article>
         </section>
@@ -138,18 +162,209 @@
               <p>N° 001</p>
               <h5 class="card-title mb-2">Bulbasaur</h5>
               <div class="block">
-              <input
-                type="button"
-                class="btn colorPlanta sinCursor"
-                value="Planta"
-              />
-              <input
-                type="button"
-                class="btn colorVeneno sinCursor"
-                value="Veneno"
-              />
+                <input
+                  type="button"
+                  class="btn colorPlanta botonColor"
+                  value="Planta"
+                />
+                <input
+                  type="button"
+                  class="btn colorVeneno botonColor"
+                  value="Veneno"
+                />
               </div>
-              <a href="/page/error404.html" class="btn btn-primary  mt-5"
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/ivysaur.png"
+              class="card-img-top"
+              alt="Ivysaur"
+            />
+            <div class="card-body">
+              <p>N° 002</p>
+              <h5 class="card-title">Ivysaur</h5>
+              <div class="block">
+                <input
+                  type="button"
+                  class="btn colorPlanta botonColor"
+                  value="Planta"
+                />
+                <input
+                  type="button"
+                  class="btn colorVeneno botonColor"
+                  value="Veneno"
+                />
+              </div>
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+
+              src="/img/pokemones/buterflee.png"
+
+              class="card-img-top"
+              alt="venusaur"
+            />
+            <div class="card-body">
+              <p>N° 003</p>
+              <h5 class="card-title">Venasaur</h5>
+              <div class="block">
+
+              <input
+                type="button"
+                class="btn btn-success sinCursor"
+                value="Bicho"
+              />
+              <input
+                type="button"
+                class="btn btn-info sinCursor"
+                value="Volador"
+              />
+            </div>
+              <a href="/page/descrpcionPokemonBelen.html" class="btn btn-primary mt-5"
+
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/charmander.png"
+              class="card-img-top"
+              alt="Charmander"
+            />
+            <div class="card-body">
+              <p>N° 004</p>
+              <h5 class="card-title">Charmander</h5>
+              <input
+                type="button"
+                class="btn btn-danger botonColor block"
+                value="Fuego"
+              />
+              <a
+                href="/page/descripcionPokemon.html"
+                class="btn btn-primary mt-5"
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/charmeleon.png"
+              class="card-img-top"
+              alt="Charmeleon"
+            />
+            <div class="card-body">
+              <p>N° 005</p>
+              <h5 class="card-title">Charmeleon</h5>
+              <input
+                type="button"
+                class="btn btn-danger botonColor block"
+                value="Fuego"
+              />
+
+              <input
+                type="button"
+                class="btn btn-info sinCursor"
+                value="Volador"
+              />
+            </div>
+              <a href="/page/descripcionPokemonGerman.html" class="btn btn-primary  mt-5"
+
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/charizard.png"
+              class="card-img-top"
+              alt="Charizard"
+            />
+            <div class="card-body">
+              <p>N° 006</p>
+              <h5 class="card-title">Charizard</h5>
+              <div class="block">
+                <input
+                  type="button"
+                  class="btn btn-danger botonColor"
+                  value="Fuego"
+                />
+                <input
+                  type="button"
+                  class="btn btn-info botonColor"
+                  value="Volador"
+                />
+              </div>
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/squirtle.png"
+              class="card-img-top"
+              alt="Squirtle"
+            />
+            <div class="card-body">
+              <p>N° 007</p>
+              <h5 class="card-title">Squirtle</h5>
+
+              <input
+                type="button"
+                class="btn btn-info botonColor block"
+                value="Agua"
+              />
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/wartotle.png"
+              class="card-img-top"
+              alt="Wartotle"
+            />
+            <div class="card-body">
+              <p>N° 008</p>
+              <h5 class="card-title">Wartotle</h5>
+              <input
+                type="button"
+                class="btn btn-info botonColor block"
+                value="Agua"
+              />
+
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
                 >Ver detalle</a
               >
             </div>
@@ -164,14 +379,61 @@
               alt="Bulbasaur"
             />
             <div class="card-body">
-              <p>N° 002</p>
+              <p>N° 009</p>
               <h5 class="card-title">Blastoise</h5>
               <input
                 type="button"
-                class="btn colorPlanta sinCursor block"
+                class="btn colorPlanta botonColor block"
                 value="Planta"
               />
 
+
+            <input type="button" class="btn btn-info sinCursor block" value="Agua" />
+            <a href="/page/descripcionPokemonPri.html" class="btn btn-primary mt-5"
+              >Ver detalle</a
+            >
+          </div>
+        </article>
+      </aside>
+
+
+        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/caterpie.png"
+              class="card-img-top"
+              alt="Caterpie"
+            />
+            <div class="card-body">
+              <p>N° 010</p>
+              <h5 class="card-title">Caterpie</h5>
+              <input
+                type="button"
+                class="btn btn-success botonColor block"
+                value="Bicho"
+              />
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
+                >Ver detalle</a
+              >
+            </div>
+          </article>
+        </aside>
+
+        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
+          <article class="card style= width: 18rem;">
+            <img
+              src="/img/pokemones/metapod.png"
+              class="card-img-top"
+              alt="Metapod"
+            />
+            <div class="card-body">
+              <p>N° 011</p>
+              <h5 class="card-title">Metapod</h5>
+              <input
+                type="button"
+                class="btn btn-success botonColor block"
+                value="Bicho"
+              />
               <a href="/page/error404.html" class="btn btn-primary mt-5"
                 >Ver detalle</a
               >
@@ -187,21 +449,21 @@
               alt="Butterfree"
             />
             <div class="card-body">
-              <p>N° 003</p>
+              <p>N° 012</p>
               <h5 class="card-title">Butterfree</h5>
               <div class="block">
-              <input
-                type="button"
-                class="btn btn-success sinCursor"
-                value="Bicho"
-              />
-              <input
-                type="button"
-                class="btn btn-info sinCursor"
-                value="Volador"
-              />
-            </div>
-              <a href="/page/descrpcionPokemonBelen.html" class="btn btn-primary mt-5"
+                <input
+                  type="button"
+                  class="btn btn-success botonColor"
+                  value="Bicho"
+                />
+                <input
+                  type="button"
+                  class="btn btn-info botonColor"
+                  value="Volador"
+                />
+              </div>
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
                 >Ver detalle</a
               >
             </div>
@@ -211,291 +473,95 @@
         <aside class="col-md-6 col-lg-3 mb-3 pb-3">
           <article class="card style= width: 18rem;">
             <img
-              src="/img/pokemones/caterpie.png"
+              src="/img/pokemones/vileplume.png"
               class="card-img-top"
-              alt="Caterpie"
+              alt="vileplume"
             />
             <div class="card-body">
-              <p>N° 004</p>
-              <h5 class="card-title">Caterpie</h5>
-              <input
-                type="button"
-                class="btn btn-success sinCursor block"
-                value="Bicho"
-              />
-              <a href="/page/error404.html" class="btn btn-primary  mt-5"
-                >Ver detalle</a
-              >
-            </div>
-          </article>
-        </aside>
-
-        <aside class="col-md-6 col-lg-3 pb-3">
-          <article class="card style= width: 18rem;">
-            <img
-              src="/img/pokemones/charizard.png"
-              class="card-img-top"
-              alt="Charizard"
-            />
-            <div class="card-body">
-              <p>N° 005</p>
-              <h5 class="card-title">Charizard</h5>
+              <p>N° 013</p>
+              <h5 class="card-title mb-2">Vileplume</h5>
               <div class="block">
-              <input
-                type="button"
-                class="btn btn-danger sinCursor"
-                value="Fuego"
-              />
-              <input
-                type="button"
-                class="btn btn-info sinCursor"
-                value="Volador"
-              />
-            </div>
-              <a href="/page/descripcionPokemonGerman.html" class="btn btn-primary  mt-5"
+                <input
+                  type="button"
+                  class="btn colorPlanta botonColor"
+                  value="Planta"
+                />
+                <input
+                  type="button"
+                  class="btn colorVeneno botonColor"
+                  value="Veneno"
+                />
+              </div>
+              <a href="/page/error404.html" class="btn btn-primary mt-5"
                 >Ver detalle</a
               >
             </div>
           </article>
         </aside>
-
-        <aside class="col-md-6 col-lg-3 pb-3">
-          <article class="card style= width: 18rem;">
-            <img
-              src="/img/pokemones/charmander.png"
-              class="card-img-top"
-              alt="Charmander"
-            />
-            <div class="card-body">
-              <p>N° 006</p>
-              <h5 class="card-title">Charmander</h5>
-              <input
-                type="button"
-                class="btn btn-danger sinCursor block"
-                value="Fuego"
-              />
-              <a href="/page/descripcionPokemon.html" class="btn btn-primary  mt-5"
-                >Ver detalle</a
-              >
-            </div>
-          </article>
-        </aside>
-
-        <aside class="col-md-6 col-lg-3 pb-3">
-          <article class="card style= width: 18rem;">
-            <img
-              src="/img/pokemones/charmeleon.png"
-              class="card-img-top"
-              alt="Charmeleon"
-            />
-            <div class="card-body">
-              <p>N° 007</p>
-              <h5 class="card-title">Charmeleon</h5>
-              <input
-                type="button"
-                class="btn btn-danger sinCursor block"
-                value="Fuego"
-              />
-              <a href="/page/error404.html" class="btn btn-primary  mt-5"
-                >Ver detalle</a
-              >
-            </div>
-          </article>
-        </aside>
-
-        <aside class="col-md-6 col-lg-3 pb-3">
-          <article class="card style= width: 18rem;">
-          <img
-            src="/img/pokemones/ivysaur.png"
-            class="card-img-top"
-            alt="Ivysaur"
-          />
-          <div class="card-body">
-            <p>N° 008</p>
-            <h5 class="card-title">Ivysaur</h5>
-            <div class="block">
-            <input
-            type="button"
-            class="btn colorPlanta sinCursor "
-            value="Planta"
-          />
-          <input
-          type="button"
-          class="btn colorVeneno sinCursor "
-          value="Veneno"
-        />
-        </div>
-            <a href="/page/error404.html" class="btn btn-primary  mt-5"
-              >Ver detalle</a
-            >
-          </div>
-        </article>
-      </aside>
-
-      <aside class="col-md-6 col-lg-3 mb-3 pb-3">
-        <article class="card style= width: 18rem;">
-          <img
-            src="/img/pokemones/metapod.png"
-            class="card-img-top"
-            alt="Metapod"
-          />
-          <div class="card-body">
-            <p>N° 009</p>
-            <h5 class="card-title">Metapod</h5>
-            <input type="button" class="btn btn-success sinCursor block" value="Bicho" />
-            <a href="/page/error404.html" class="btn btn-primary  mt-5"
-              >Ver detalle</a
-            >
-          </div>
-        </article>
-      </aside>
-
-      <aside class="col-md-6 col-lg-3 mb-3 pb-3">
-        <article class="card style= width: 18rem;">
-          <img
-            src="/img/pokemones/squirtle.png"
-            class="card-img-top"
-            alt="Squirtle"
-          />
-          <div class="card-body">
-            <p>N° 010</p>
-            <h5 class="card-title">Squirtle</h5>
-
-            <input type="button" class="btn btn-info sinCursor block" value="Agua" />
-            <a href="/page/descripcionPokemonPri.html" class="btn btn-primary mt-5"
-              >Ver detalle</a
-            >
-          </div>
-        </article>
-      </aside>
-
-        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
-          <article class="card style= width: 18rem;">
-          <img
-            src="/img/pokemones/venusaur.png"
-            class="card-img-top"
-            alt="venusaur"
-          />
-          <div class="card-body">
-            <p>N° 011</p>
-            <h5 class="card-title">Venasaur</h5>
-            <div class="block">
-            <input
-              type="button"
-              class="btn colorPlanta sinCursor"
-              value="Planta"
-            />
-            <input
-              type="button"
-              class="btn colorVeneno sinCursor"
-              value="Veneno"
-            />
-            </div>
-            <a href="/page/error404.html" class="btn btn-primary  mt-5"
-              >Ver detalle</a
-            >
-          </div>
-        </article>
-      </aside>
-
-        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
-          <article class="card style= width: 18rem;">
-          <img
-            src="/img/pokemones/wartotle.png"
-            class="card-img-top"
-            alt="Wartotle"
-          />
-          <div class="card-body">
-            <p>N° 012</p>
-            <h5 class="card-title">Wartotle</h5>
-            <input
-              type="button"
-              class="btn btn-info sinCursor block"
-              value="Agua"
-            />
-
-            <a href="/page/error404.html" class="btn btn-primary  mt-5"
-              >Ver detalle</a
-            >
-          </div>
-        </article>
-      </aside>
-
-        <aside class="col-md-6 col-lg-3 mb-3 pb-3">
-          <article class="card style= width: 18rem;">
-          <img
-            src="/img/pokemones/vileplume.png"
-            class="card-img-top"
-            alt="vileplume"
-          />
-          <div class="card-body">
-            <p>N° 013</p>
-            <h5 class="card-title mb-2">Vileplume</h5>
-            <div class="block">
-            <input
-              type="button"
-              class="btn colorPlanta sinCursor "
-              value="Planta"
-            />
-            <input
-              type="button"
-              class="btn colorVeneno sinCursor "
-              value="Veneno"
-            />
-          </div>
-            <a href="/page/error404.html" class="btn btn-primary  mt-5"
-              >Ver detalle</a
-            >
-          </div>
-        </article>
-      </aside>
       </section>
     </main>
-    
 
     <footer>
-        <section class="container-fluid">
-            <article  class="row" id="cuerpoFooter">
-                <aside class="col-xl-3  col-sm-3 col-md-3">
-                    <p class="h5">PokeDex</p>
-                    <ul>
-                      <li>Direccion: Pueblo Paleta 1996</li>
-                      <li> telefono: + 34 726 731 724</li>
-                      <li>Email: geunnounn-7992@yopmail.com</li>
-                    </ul>
-                </aside>
-                <aside class="col-xl-3 col-sm-3 col-md-3">
-                    <p class="h5"> Navegacion</p>
-                    <ul>
-                        <li><a href="/page/quienesSomos.html">Quienes Somos</a></li>
-                        <li><a href="/index.html">Inicio</a></li>
-                        <li><a href="/page/error404.html">Contactanos</a></li>
-                        <li><a href="/page/error404.html">Nuestra Historia</a></li>
-                    </ul>
-                </aside>
-                <aside class="col-xl-3 col-sm-3 col-md-3">
-                    <p class="h5">Legal</p>
-                    <ul>
-                        <li><a href="/page/error404.html">Terminos y condiciones</a></li>
-                        <li><a href="/page/error404.html">Politica de privacidad</a></li>
-                        <li><a href="/page/error404.html">Politica de derecho de autor</a></li>
-                        <li><a href="/page/error404.html">Descargar App Movil</a></li>
-                    </ul>
-                </aside>
-                <aside class="col-xl-3 col-sm-3 col-md-3">
-                    <p class="h5">Redes Sociales</p>
-                        <ul>
-                      <li><a href="/page/error404.html"><i class="bi bi-facebook"></i> Facebook</a></li>
-                      <li><a href="/page/error404.html"><i class="bi bi-twitter"></i> Twiter</a></li>
-                      <li><a href="/page/error404.html"><i class="bi bi-instagram"></i> Instagram</a></li>
-                      <li><a href="/page/error404.html"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
-                    </ul>
-                </aside>
-            </article>
-            <article  class="row" id="copyrightFooter">
-               <p class="h6"> &copy;Todos los Derechos Reservados - PokeDex </p> 
-            </article>
-        </section>
+      <section class="container-fluid">
+        <article class="row" id="cuerpoFooter">
+          <aside class="col-xl-3 col-sm-3 col-md-3">
+            <p class="h5">PokeDex</p>
+            <ul>
+              <li>Direccion: Pueblo Paleta 1996</li>
+              <li>telefono: + 34 726 731 724</li>
+              <li>Email: geunnounn-7992@yopmail.com</li>
+            </ul>
+          </aside>
+          <aside class="col-xl-3 col-sm-3 col-md-3">
+            <p class="h5">Navegacion</p>
+            <ul>
+              <li><a href="/page/quienesSomos.html">Quienes Somos</a></li>
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="/page/error404.html">Contactanos</a></li>
+              <li><a href="/page/error404.html">Nuestra Historia</a></li>
+            </ul>
+          </aside>
+          <aside class="col-xl-3 col-sm-3 col-md-3">
+            <p class="h5">Legal</p>
+            <ul>
+              <li><a href="/page/error404.html">Terminos y condiciones</a></li>
+              <li><a href="/page/error404.html">Politica de privacidad</a></li>
+              <li>
+                <a href="/page/error404.html">Politica de derecho de autor</a>
+              </li>
+              <li><a href="/page/error404.html">Descargar App Movil</a></li>
+            </ul>
+          </aside>
+          <aside class="col-xl-3 col-sm-3 col-md-3">
+            <p class="h5">Redes Sociales</p>
+            <ul>
+              <li>
+                <a href="/page/error404.html"
+                  ><i class="bi bi-facebook"></i> Facebook</a
+                >
+              </li>
+              <li>
+                <a href="/page/error404.html"
+                  ><i class="bi bi-twitter"></i> Twiter</a
+                >
+              </li>
+              <li>
+                <a href="/page/error404.html"
+                  ><i class="bi bi-instagram"></i> Instagram</a
+                >
+              </li>
+              <li>
+                <a href="/page/error404.html"
+                  ><i class="bi bi-linkedin"></i> LinkedIn</a
+                >
+              </li>
+            </ul>
+          </aside>
+        </article>
+        <article class="row" id="copyrightFooter">
+          <p class="h6">&copy;Todos los Derechos Reservados - PokeDex</p>
+        </article>
+      </section>
     </footer>
     <script src="js/bootstrap.min.js"></script>
   </body>
