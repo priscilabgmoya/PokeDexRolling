@@ -134,6 +134,8 @@ background-color:rgb(75, 214, 121) ;
 .sinCursor {
   cursor: not-allowed;
   pointer-events: none;
+  border-radius: 40px;
+  margin: 5px 0px;
 }
 
 .card-img {
