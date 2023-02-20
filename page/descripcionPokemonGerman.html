@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="pagina de PokeDex" />
+    <meta
+      name="keybords"
+      content="Pokemon, pikachu, ash, pokedex, agregar mas  "
+    />
+    <meta
+      name="author"
+      content="Rusco German André, Garcia Moya Priscila Belen, Ramos Emilia Belen, Romero Uro, Juan Gerardo"
+    />
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>PokeDex</title>
+</head>
+  <body>
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navBar-PokeDex">
+            <section class="container-fluid">
+              <a class="navbar-brand" href="../index.html" ><img src="/img/logoPokedek.png" alt="logoPokedek" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <article  class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/page/error404.html">Pokemon  Favoritos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link "  href="/page/error404.html">Categorias</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Busca aquí tu Pokemon" aria-label="Search">
+                  <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </article>
+            </section>
+          </nav>
+    </header>
+
+    <main class="container">
+      <!--Carrousel-->
+      <section id="carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/img/detallesPokemonCharmander/carrousel2.png"
+              class="d-block w-100 card-img"
+              alt="imagen banner 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/detallesPokemonCharmander/carrousel1.jpg"
+              class="d-block w-100 card-img"
+              alt="imagen banner 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/detallesPokemonCharmander/carrousel3.jpg"
+              class="d-block w-100 card-img"
+              alt="imagen banner 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <h2 class="pokemon-heading">
+        Charizard
+        <span class="text-secondary text-secondary fs-1"> N° 006</span>
+      </h2>
+      <section class="pokemon-grid mb-4">
+        <div class="hoverableCharizard">
+          <img
+            class="card-img img-charmander"
+            src="/img/detallesPokemonCharmander/charizardEvolucion.png"
+            alt="Charizard"
+          />
+        </div>
+        <article
+          class="pokemon-contenido text-light bg-warning-subtle rounded-3 p-1"
+        >
+          <p>
+            Sus potentes alas le permiten volar a una altura de 1400 m. Escupe llamaradas que llegan a alcanzar temperaturas elevadísimas.
+          </p>
+
+          <div class="container text-start">
+            <div class="row">
+              <div class="col-6">
+                <p class="d-block mb-0 mt-4 text-uppercase">
+                  Altura <i class="bi bi-rulers"></i>
+                </p>
+                1.7 m
+              </div>
+              <div class="col-6">
+                <p class="d-block mb-0 mt-4 text-uppercase">Categoria</p>
+                Llama
+              </div>
+
+              <div class="w-100"></div>
+
+              <div class="col-6">
+                <p class="d-block mb-0 mt-4 text-uppercase">
+                  Peso <i class="bi bi-calendar"></i>
+                </p>
+                90.5 kg
+              </div>
+              <div class="col-6">
+                <p class="d-block mb-0 mt-4 text-uppercase">Habilidad</p>
+                Lanza Llamas
+              </div>
+              <div class="w-100"></div>
+              <div class="col-12">
+                <p class="d-block mb-0 mt-4 text-uppercase">Sexo</p>
+                <i class="bi bi-gender-female"></i>
+                <i class="bi bi-gender-male"></i>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="pokemonSkills-grid text-light">
+        <article class="container">
+          <h4>Puntos de base</h4>
+          <div class="row">
+            <div
+              class="progress col-12 mb-1"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bg-success" style="width: 33.3%">PS</div>
+            </div>
+            <div
+              class="progress col-12 my-1"
+              role="progressbar"
+              aria-label="Info example"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bg-info" style="width: 33.3%">Ataque</div>
+            </div>
+            <div
+              class="progress col-12 my-1"
+              role="progressbar"
+              aria-label="Warning example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bg-warning" style="width: 33.3%">
+                Defensa
+              </div>
+            </div>
+            <div
+              class="progress col-12 my-1"
+              role="progressbar"
+              aria-label="Danger example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bg-danger" style="width: 46.66%">
+                Velocidad
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="pokemon-contenido rounded-3 bg-primary-subtle">
+          <div class="container text-start">
+            <div class="row">
+              <div class="col-12">
+                <p class="d-block mb-0 mt-2">
+                  Tipo:
+                  <input
+                    class="btn btn-danger sinCursor"
+                    type="button"
+                    value="Fuego"
+                  />
+                  <input
+                    class="btn btn-info sinCursor"
+                    type="button"
+                    value="Volador"
+                  />
+                </p>
+              </div>
+
+              <div class="w-100"></div>
+
+              <div class="col-12">
+                <p class="d-block mb-0 mt-2">
+                  Debilidad:
+                  <input
+                    class="btn btn-primary sinCursor"
+                    type="button"
+                    value="Agua"
+                  />
+                  <input
+                    class="btn btn-secondary sinCursor"
+                    type="button"
+                    value="Roca"
+                  />
+                  <input
+                    class="btn btn-warning sinCursor"
+                    type="button"
+                    value="Tierra"
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="card-group text-center mb-4">
+        <h4 class="mt-4 mb-5 text-uppercase">Evoluciones</h4>
+        <div class="container">
+          <div class="row g-4">
+            <article class="col-12 col-sm-6 col-lg-4 my-1">
+              <div class="card">
+                <img
+                  src="/img/detallesPokemonCharmander/charmanderEvolucion.png"
+                  class="card-img-top img-evoluciones"
+                  alt="imagen charmander evolucion"
+                />
+                <div class="card-body">
+                  <h4 class="card-title text-light">Charmander</h4>
+                  <h5 class="text-light">N° 004</h5>
+                </div>
+                <div class="card-footer">
+                  <input
+                    class="btn btn-danger sinCursor"
+                    type="button"
+                    value="Fuego"
+                  />
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4 my-1">
+              <div class="card">
+                <img
+                  src="/img/detallesPokemonCharmander/charmeleonEvolucion.png"
+                  class="card-img-top img-evoluciones"
+                  alt="imagen charmeleon evolucion"
+                />
+                <div class="card-body">
+                  <h4 class="card-title text-light">Charmeleon</h4>
+                  <h5 class="text-light">N° 005</h5>
+                </div>
+                <div class="card-footer">
+                  <input
+                    class="btn btn-danger sinCursor"
+                    type="button"
+                    value="Fuego"
+                  />
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4 my-1">
+              <div class="card">
+                <img
+                  src="/img/detallesPokemonCharmander/charizardEvolucion.png"
+                  class="card-img-top img-evoluciones"
+                  alt="imagen charizard evolucion"
+                />
+                <div class="card-body">
+                  <h4 class="card-title text-light">Charizard</h4>
+                  <h5 class="text-light">N° 006</h5>
+                </div>
+                <div class="card-footer">
+                  <input
+                    class="btn btn-danger sinCursor"
+                    type="button"
+                    value="Fuego"
+                  />
+                  <input
+                    class="btn btn-info sinCursor"
+                    type="button"
+                    value="Volador"
+                  />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+       <footer>
+
+        <section class="container-fluid">
+            <article  class="row" id="cuerpoFooter">
+                <aside class="col-xl-3  col-sm-3 col-md-3">
+                    <p class="h5">PokeDex</p>
+                    <ul>
+                      <li>Direccion: Pueblo Paleta 1996</li>
+                      <li> telefono: + 34 726 731 724</li>
+                      <li>Email: geunnounn-7992@yopmail.com</li>
+                    </ul>
+                </aside>
+                <aside class="col-xl-3 col-sm-3 col-md-3">
+                    <p class="h5"> Navegacion</p>
+                    <ul>
+                        <li><a href="./quienesSomos.html">Quienes Somos</a></li>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./error404.html">Contactanos</a></li>
+                        <li><a href="./error404.html">Nuestra Historia</a></li>
+                    </ul>
+                </aside>
+                <aside class="col-xl-3 col-sm-3 col-md-3">
+                    <p class="h5">Legal</p>
+                    <ul>
+                        <li><a href="./error404.html">Terminos y condiciones</a></li>
+                        <li><a href="./error404.html">Politica de privacidad</a></li>
+                        <li><a href="./error404.html">Politica de derecho de autor</a></li>
+                        <li><a href="./error404.html">Descargar App Movil</a></li>
+                    </ul>
+                </aside>
+                <aside class="col-xl-3 col-sm-3 col-md-3">
+                    <p class="h5">Redes Sociales</p>
+                        <ul>
+                      <li><a href="./error404.html"><i class="bi bi-facebook"></i> Facebook</a></li>
+                      <li><a href="./error404.html"><i class="bi bi-twitter"></i> Twiter</a></li>
+                      <li><a href="./error404.html"><i class="bi bi-instagram"></i> Instagram</a></li>
+                      <li><a href="./error404.html"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </aside>
+            </article>
+            <article  class="row" id="copyrightFooter">
+               <p class="h6"> &copy;Todos los Derechos Reservados - PokeDex </p> 
+            </article>
+        </section>
+    </footer>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
