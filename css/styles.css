@@ -193,6 +193,19 @@ color: #e0e0e0;
     margin: auto;
 }
 }
+
+.hoverableCharizard {
+  display: inline-block;
+  background: center url('/img/detallesPokemonCharmander/charizardEvolucion.png')
+    no-repeat;
+  background-size: contain;
+}
+
+@media all and (min-width: 769px) {
+  .hoverableCharizard:hover {
+    background-image: url('/img/Charizard/charizard-gif.gif');
+  }
+}
 /*================== FIN German =================================*/
 
 
