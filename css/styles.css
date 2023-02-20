@@ -158,3 +158,16 @@ color: #e0e0e0;
   max-width: 70%;
   margin: 0 auto;
   display: none;
+}
+
+.hoverableButterfree {
+  display: inline-block;
+  background: center url('/img/pokemones/buterflee.png')
+    no-repeat;
+  background-size: contain;
+}
+
+.sinCursorButterfree {
+  cursor: not-allowed;
+  pointer-events: none;
+}
