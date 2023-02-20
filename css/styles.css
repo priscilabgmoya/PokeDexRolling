@@ -97,7 +97,7 @@ background-color:rgb(75, 214, 121) ;
   background-color: blueviolet;
 }
 
-.sinCursor {
+.botonColor {
   cursor: not-allowed;
   pointer-events: none;
   border-radius: 40px;
@@ -107,6 +107,26 @@ background-color:rgb(75, 214, 121) ;
   display: block
   }
 
+
+
+.img-butterfree {
+  max-width: 70%;
+  margin: 0 auto;
+  display: none;
+}
+
+.hoverableButterfree {
+  display: inline-block;
+  background: center url('/img/pokemones/buterflee.png')
+    no-repeat;
+  background-size: contain;
+}
+
+.sinCursorButterfree {
+  cursor: not-allowed;
+  pointer-events: none;
+  
+}
 
 /*================== Gerardo ===================================*/
 .sinCursor {
@@ -228,21 +248,3 @@ color: #e0e0e0;
   }
 }
 /*================== FIN German =================================*/
-
-.img-butterfree {
-  max-width: 70%;
-  margin: 0 auto;
-  display: none;
-}
-
-.hoverableButterfree {
-  display: inline-block;
-  background: center url('/img/pokemones/buterflee.png')
-    no-repeat;
-  background-size: contain;
-}
-
-.sinCursorButterfree {
-  cursor: not-allowed;
-  pointer-events: none;
-}
