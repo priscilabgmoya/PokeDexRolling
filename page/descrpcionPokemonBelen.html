@@ -19,7 +19,31 @@
     <title>PokeDex</title>
   </head>
   <body>
-    <header>AGUI NAVBAR</header>
+    <header>     <nav class="navbar navbar-expand-lg navbar-light" id="navBar-PokeDex">
+      <section class="container-fluid">
+        <a class="navbar-brand" href="../index.html" ><img src="/img/logoPokedek.png" alt="logoPokedek" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <article  class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/page/error404.html">Pokemon  Favoritos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="/page/error404.html">Categorias</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Busca aquí tu Pokemon" aria-label="Search">
+            <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </article>
+      </section>
+    </nav></header>
 
     <main class="container">
       <section id="carousel" class="carousel slide">
@@ -198,28 +222,28 @@
               <div class="col-12">
                 <p class="d-block mb-0 mt-2">
                   Tipo:
-                  <input class="btn btn-danger" type="button" value="Fuego" />
+                  <input class="btn btn-danger  sinCursor" type="button" value="Fuego" />
                 </p>
               </div>
 
               <div class="w-100"></div>
 
               <div class="col-12">
-                <p class="d-block mb-0 mt-2">
+                <p class="d-block mb-0 mt-2 justify-content-between">
                   Debilidad:
-                  <input class="btn btn-info" type="button" value="Fuego" />
+                  <input class="btn btn-info  sinCursor" type="button" value="Fuego" />
                   <input
-                    class="btn btn-secondary"
+                    class="btn btn-secondary  sinCursor"
                     type="button"
                     value="Volador"
                   />
                   <input
-                    class="btn btn-warning"
+                    class="btn btn-warning  sinCursor"
                     type="button"
                     value="Electrico"
                   />
-                  <input class="btn btn-warning" type="button" value="Hielo" />
-                  <input class="btn btn-warning" type="button" value="Roca" />
+                  <input class="btn btn-warning  sinCursor" type="button" value="Hielo" />
+                  <input class="btn btn-warning  sinCursor" type="button" value="Roca" />
                 </p>
               </div>
             </div>

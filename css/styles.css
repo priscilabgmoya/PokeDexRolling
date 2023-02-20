@@ -107,8 +107,6 @@ background-color:rgb(75, 214, 121) ;
   display: block
   }
 
-
-
 .img-butterfree {
   max-width: 70%;
   margin: 0 auto;
@@ -121,7 +119,11 @@ background-color:rgb(75, 214, 121) ;
     no-repeat;
   background-size: contain;
 }
-
+@media all and (min-width: 769px) {
+  .hoverableButterfree:hover {
+    background-image: url('/img/DetalleButterfree/gifButter.gif');
+  }
+}
 .sinCursorButterfree {
   cursor: not-allowed;
   pointer-events: none;
@@ -248,3 +250,4 @@ color: #e0e0e0;
   }
 }
 /*================== FIN German =================================*/
+
