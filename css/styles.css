@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
-/**--------------------------------------------------- Priscila ------------------------------------------------------------------------------------------------**/
+
 body {
   display: flex;
   flex-direction: column;
@@ -74,7 +74,8 @@ height: 8vh;
     background-image: url('/img/pokemonSquirtle/squirtle.gif');
   }
 }
-/**----------------------------------------------- Fin Priscila ----------------------------------------**/
+
+
 
 .carousel-inner img {
   width: 100%;
@@ -128,7 +129,7 @@ background-color:rgb(75, 214, 121) ;
   
 }
 
-/*================== Gerardo ===================================*/
+
 .sinCursor {
   cursor: not-allowed;
   pointer-events: none;
@@ -178,37 +179,14 @@ background-color:rgb(75, 214, 121) ;
   background-size: contain;
 }
 
-@media all and (min-width: 280px) and (max-width: 768px) {
-  .carousel {
-    display: none;
-  }
-  [class*='-heading'] {
-    font-size: 4rem;
-    text-align: center;
-    align-items: center;
-    font-weight: 400;
-    color: red;
-    margin: 3rem 0;
-  }
-  .pokemon-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .pokemonSkills-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .img-charmander {
-    max-width: 100%;
-    display: block;
-  }
-}
+
 
 @media all and (min-width: 769px) {
   .hoverable:hover {
     background-image: url('/img/detallesPokemonCharmander/lanzallamasCharmander.gif');
   }
 }
-/*================== FIN Gerardo =================================*/
-/*================== German ===================================*/
+
 .imgCardAcercaNosotros img{
   width: 227px;
   height: 272px;
@@ -249,5 +227,49 @@ color: #e0e0e0;
     background-image: url('/img/Charizard/charizard-gif.gif');
   }
 }
-/*================== FIN German =================================*/
-
+@media all and (min-width: 280px) and (max-width: 768px) {
+  .carousel {
+    display: none;
+  }
+  [class*='-heading'] {
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    color: red;
+    margin: 3rem 0;
+  }
+  .pokemon-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pokemonSkills-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .img-charmander {
+    max-width: 100%;
+    display: block;
+  }
+  .navbar-brand img {
+    padding: 0px;
+    margin: 0px;
+    height: 8vh;
+    border-radius: 42px;
+}
+}
+@media all and (min-width: 770px) and (max-width: 991px){
+  .navbar-brand img {
+    padding: 0px;
+    margin: 0px;
+    height: 6vh;
+    border-radius: 70px;
+}
+#navbarSupportedContent input {
+  background-color: #ffffff;
+  height: 4vh;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 32vh;
+  object-fit: cover;
+}
+}
