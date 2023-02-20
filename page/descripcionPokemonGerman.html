@@ -115,23 +115,22 @@
         </button>
       </section>
       <h2 class="pokemon-heading">
-        Charmander
-        <span class="text-secondary text-secondary fs-1"> N° 004</span>
+        Charizard
+        <span class="text-secondary text-secondary fs-1"> N° 006</span>
       </h2>
       <section class="pokemon-grid mb-4">
-        <div class="hoverable">
+        <div class="hoverableCharizard">
           <img
             class="card-img img-charmander"
-            src="/img/detallesPokemonCharmander/charmander.png"
-            alt="imagen pokemon"
+            src="/img/detallesPokemonCharmander/charizardEvolucion.png"
+            alt="Charizard"
           />
         </div>
         <article
           class="pokemon-contenido text-light bg-warning-subtle rounded-3 p-1"
         >
           <p>
-            Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor
-            de la punta de la cola.
+            Sus potentes alas le permiten volar a una altura de 1400 m. Escupe llamaradas que llegan a alcanzar temperaturas elevadísimas.
           </p>
 
           <div class="container text-start">
@@ -140,11 +139,11 @@
                 <p class="d-block mb-0 mt-4 text-uppercase">
                   Altura <i class="bi bi-rulers"></i>
                 </p>
-                0.6 m
+                1.7 m
               </div>
               <div class="col-6">
                 <p class="d-block mb-0 mt-4 text-uppercase">Categoria</p>
-                Lagartija
+                Llama
               </div>
 
               <div class="w-100"></div>
@@ -153,7 +152,7 @@
                 <p class="d-block mb-0 mt-4 text-uppercase">
                   Peso <i class="bi bi-calendar"></i>
                 </p>
-                8.5 kg
+                90.5 kg
               </div>
               <div class="col-6">
                 <p class="d-block mb-0 mt-4 text-uppercase">Habilidad</p>
@@ -181,7 +180,7 @@
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div class="progress-bar bg-success" style="width: 20%">PS</div>
+              <div class="progress-bar bg-success" style="width: 33.3%">PS</div>
             </div>
             <div
               class="progress col-12 my-1"
@@ -191,7 +190,7 @@
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div class="progress-bar bg-info" style="width: 25%">Ataque</div>
+              <div class="progress-bar bg-info" style="width: 33.3%">Ataque</div>
             </div>
             <div
               class="progress col-12 my-1"
@@ -201,7 +200,7 @@
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div class="progress-bar bg-warning" style="width: 15%">
+              <div class="progress-bar bg-warning" style="width: 33.3%">
                 Defensa
               </div>
             </div>
@@ -213,7 +212,7 @@
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              <div class="progress-bar bg-danger" style="width: 10%">
+              <div class="progress-bar bg-danger" style="width: 46.66%">
                 Velocidad
               </div>
             </div>
@@ -226,9 +225,14 @@
                 <p class="d-block mb-0 mt-2">
                   Tipo:
                   <input
-                    class="btn btn-danger botonColor"
+                    class="btn btn-danger sinCursor"
                     type="button"
                     value="Fuego"
+                  />
+                  <input
+                    class="btn btn-info sinCursor"
+                    type="button"
+                    value="Volador"
                   />
                 </p>
               </div>
@@ -239,17 +243,17 @@
                 <p class="d-block mb-0 mt-2">
                   Debilidad:
                   <input
-                    class="btn btn-info botonColor"
+                    class="btn btn-primary sinCursor"
                     type="button"
                     value="Agua"
                   />
                   <input
-                    class="btn btn-secondary botonColor"
+                    class="btn btn-secondary sinCursor"
                     type="button"
                     value="Roca"
                   />
                   <input
-                    class="btn btn-warning botonColor"
+                    class="btn btn-warning sinCursor"
                     type="button"
                     value="Tierra"
                   />
@@ -277,7 +281,7 @@
                 </div>
                 <div class="card-footer">
                   <input
-                    class="btn btn-danger botonColor"
+                    class="btn btn-danger sinCursor"
                     type="button"
                     value="Fuego"
                   />
@@ -297,7 +301,7 @@
                 </div>
                 <div class="card-footer">
                   <input
-                    class="btn btn-danger botonColor"
+                    class="btn btn-danger sinCursor"
                     type="button"
                     value="Fuego"
                   />
@@ -317,12 +321,12 @@
                 </div>
                 <div class="card-footer">
                   <input
-                    class="btn btn-danger botonColor"
+                    class="btn btn-danger sinCursor"
                     type="button"
                     value="Fuego"
                   />
                   <input
-                    class="btn btn-info botonColor"
+                    class="btn btn-info sinCursor"
                     type="button"
                     value="Volador"
                   />
@@ -381,4 +385,3 @@
     <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
-
