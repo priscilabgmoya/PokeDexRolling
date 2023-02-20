@@ -259,7 +259,7 @@ color: #e0e0e0;
 }
 #navbarSupportedContent input {
   background-color: #ffffff;
-  height: 2vh;
+  height: 4vh;
 }
 }
 @media all and (min-width: 770px) and (max-width: 991px){
